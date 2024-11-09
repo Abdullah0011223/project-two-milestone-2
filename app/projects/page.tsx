@@ -34,6 +34,7 @@ const Portfolio: React.FC = () => {
               key={project.id}
               className="relative overflow-hidden bg-white rounded-lg shadow-lg group transform transition duration-500 hover:scale-105 hover:shadow-xl"
             >
+              <h1>Hello World</h1>
               <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">
                 <img
                   src={project.imageUrl}
